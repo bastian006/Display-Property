@@ -1,40 +1,39 @@
 #container{
-    padding: 15px;
-    height: 80%;
-    width: 80%;
-    background-color: #e2e2fe;
-    display: flex;
-    justify-content: center;
-    box-sizing: border-box;
+    width: 800px;
+    margin: 0 auto;
+    background-color: #f3f3f3;
+    padding: 20px;
+    text-align: center;
+}
+
+h1{
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+
 }
 #catimg{
-    height: 100px;
-    justify-content: space-between;
-}
-h1{
-    display: flex;
-    justify-content: center;
+    height: 200px;
 }
 .imagenes-1{
-    box-sizing: border-box;
-    padding: 40px;
+    padding: 20px;
+    margin: 20px;
     background-color: aqua;
-    border: 2px;
     display: flex;
+    justify-content: space-between;
 }
 
 .imagenes-2{
+    justify-content: space-between;
     padding: 40px;
     background-color: #c49faa;
 }
 
 .imagenes-3{
-    padding: 40px;
+    padding: 20px;
     background-color: white;
 }
 
-.imagenes-1 .imagenes-2 .imagenes-3{
-    display: flexbox;
-    justify-content: center;
-    flex-direction: row;
+p{
+    text-align: center;
 }
