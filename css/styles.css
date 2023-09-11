@@ -1,0 +1,40 @@
+#container{
+    padding: 15px;
+    height: 80%;
+    width: 80%;
+    background-color: #e2e2fe;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+#catimg{
+    height: 100px;
+    justify-content: space-between;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+.imagenes-1{
+    box-sizing: border-box;
+    padding: 40px;
+    background-color: aqua;
+    border: 2px;
+    display: flex;
+}
+
+.imagenes-2{
+    padding: 40px;
+    background-color: #c49faa;
+}
+
+.imagenes-3{
+    padding: 40px;
+    background-color: white;
+}
+
+.imagenes-1 .imagenes-2 .imagenes-3{
+    display: flexbox;
+    justify-content: center;
+    flex-direction: row;
+}
